@@ -20,7 +20,6 @@ var playerWins = 0;
 var playerLosses = 0;
 // var currentWord = rand;
 
-
 //random word generator
 // var rand = dictionary[Math.floor(Math.random() * dictionary.length)];
 //    console.log(rand)
