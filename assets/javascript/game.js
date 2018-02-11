@@ -18,22 +18,24 @@ document.onkeyup = function(choice)
 // conditional logic to see if you win or lose
 var playerWins = 0;
 var playerLosses = 0;
-// var currentWord = rand;
 
 //random word generator
-// var rand = dictionary[Math.floor(Math.random() * dictionary.length)];
-//    console.log(rand)
+var rand = dictionary[Math.floor(Math.random() * dictionary.length)];
+
+var currentWord = rand;
+   console.log(currentWord)
+
 // statistics, win and loss variables
 // if(something){
-//     //player has won
-//     playerWins++;
-// }
-
-// else{
-//     // player loses
-//     playerLosses++;
-// }
-
-// // update the statistics
-
-// console.log(playerWins);
+    //     //player has won
+    //     playerWins++;
+    // }
+    
+    // else{
+        //     // player loses
+        //     playerLosses++;
+        // }
+        
+        // // update the statistics
+        
+        // console.log(playerWins);
