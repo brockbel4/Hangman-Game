@@ -13,6 +13,8 @@ var dictionary = ["German Shepherd", "Labrador Retriever", "Siberian Husky", "En
 document.onkeyup = function(choice)
 {
     console.log(choice.key);
+    currentWord.indexOf(choice.key);
+    console.log(currentWord.indexOf(choice.key));
 }
 
 // conditional logic to see if you win or lose
@@ -24,6 +26,8 @@ var rand = dictionary[Math.floor(Math.random() * dictionary.length)];
 
 var currentWord = rand;
    console.log(currentWord)
+
+
 
 // statistics, win and loss variables
 // if(something){
