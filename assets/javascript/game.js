@@ -25,6 +25,23 @@ var rand = dictionary[Math.floor(Math.random() * dictionary.length)];
 var currentWord = rand;
    console.log(currentWord)
 
+var usedWords = [];
+
+// usedWords.push(currentWord);
+// console.log(usedWords);
+
+
+console.log("start");
+var usedWords = [0];
+for(var i = 0; i < usedWords.length; i++){
+    console.log(i + " = " + usedWords[i]);
+}
+console.log(usedWords);
+console.log("end");
+usedWords.push(currentWord);
+
+
+
 // statistics, win and loss variables
 // if(something){
     //     //player has won
