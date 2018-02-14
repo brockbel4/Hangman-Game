@@ -25,7 +25,7 @@ function renderGame() {
  It emptys the letters guessed, current guesses left, and the underscores for a fresh start */
 function resetGame() {
   var randomWordIndex = Math.floor(Math.random() * WORDS.length);
-  
+  document.getElementById('winScreen').innerHTML = 'The last word was: "' + currentWord + '"';
   currentGuesses = 0;
   lettersGuessed = [];
   gameDisplay = [];
