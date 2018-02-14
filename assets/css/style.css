@@ -1,0 +1,4 @@
+/* This hides any game elements to start, it is manipulated in the JS with the renderGame() function */
+#game {
+    display: none;  
+  }
