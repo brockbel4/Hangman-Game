@@ -4,25 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <script src="./assets/javascript/game.js"></script>
-    <title>Hangman</title>
-    <!-- Bootstrap link -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- Custom CSS -->
+    <title>Hangman!</title>
 </head>
 <body>
-    <h1>Hangman</h1>
-
-    <!-- Start Screen -->
-    <h2 id="startScreen">Press any key to get started!</h2>
-
-    <!-- Need a container for the body when a letter is guessed wrong and the number of wins/losses-->
-
-    <!-- Need a container for letters already guessed/guesses remaining -->
-
-    <!-- Need a container for "press any key to get started" and the word to be written out in -->
     
 
+
+    <div id="startScreen">Press any key to start!</div>
+    <div id="game">
+      <div>Wins: <span id="winNumber"></span></div>
+      <div>Guesses: <span id="guessNumber"></span></div>
+      <div>Letters Guessed: <span id="lettersGuessed"></span></div>
+      <div id="gameBoard"></div>
+    </div>
+    <div id="loseScreen"></div>
+    <div id="winScreen"><div>
+    
 
 </body>
 </html>
